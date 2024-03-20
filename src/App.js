@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FileUpload from "./FileUpload/FileUpload";
+import AxiosExample4 from "./UseEffect/AxiosExample4";
+import Example1 from "./UseEffect/Example1";
+import Example2 from "./UseEffect/Example2";
+import Example5 from "./UseEffect/Example5";
+import FetchExample3 from "./UseEffect/FetchExample3";
+import FetchExample from "./UseEffect/FetchExample3";
+import Counter from "./UseReducer/Counter";
+import ArrayUseState from "./UseState/ArrayUseState";
+import BasicForm from "./UseState/BasicForm";
+import CounterColor from "./UseState/CounterColor";
+import WhatsappChat from "./UseState/WhatsappChat";
+import WindowSize from "./UseState/WindowSize";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <FileUpload /> */}
+      {/* <BasicForm /> */}
+      {/* <CounterColor /> */}
+      {/* <ArrayUseState /> */}
+      {/* <WhatsappChat /> */}
+      {/* <WindowSize /> */}
+      {/* <Counter /> */}
+      {/* <Example1 /> */}
+      {/* <Example2 /> */}
+      {/* <FetchExample3 /> */}
+      {/* <AxiosExample4 /> */}
+      <Example5 />
+    </>
   );
 }
 
